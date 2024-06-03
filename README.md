@@ -6,10 +6,6 @@ A webapp for online medical bookings
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 ## Installation
 for React Frontend: npm install
