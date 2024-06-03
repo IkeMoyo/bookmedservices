@@ -1,4 +1,4 @@
-# BookMedService
+# BookMedServices
 
 ## Description
 A webapp for online medical bookings
