@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Appointment Scheduled</title>
+</head>
+<body>
+    <h1>New Appointment Scheduled</h1>
+    <p>Dear {{ appointment.doctor.first_name }},</p>
+    <p>We are pleased to inform you that a new appointment has been scheduled:</p>
+    <ul>
+        <li><strong>Patient:</strong> {{ appointment.customer.first_name }} {{ appointment.customer.last_name }}</li>
+        <li><strong>Case:</strong> {{ appointment.speciality }}</li>
+        <li><strong>Reason for appointment:</strong> {{ appointment.reason }}</li>
+        <li><strong>Date:</strong> {{ appointment.date }}</li>
+        <li><strong>Time:</strong> {{ appointment.time }}</li>
+    </ul>
+    <p>Thank you for choosing our services.</p>
+    <p>Sincerely,</p>
+    <p><strong>BookMediServices</strong></p>
+</body>
+</html>
