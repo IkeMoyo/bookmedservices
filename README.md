@@ -16,4 +16,5 @@ for Django Backend: pip install -r requirements.txt
 To start the application, run:
 
 npm start
+
 python manage.py runserver
